@@ -20,14 +20,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DF3-O0-MCE">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.27541452646255493" green="0.0" blue="0.61414581537246704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-I6-9Zt">
-                                <rect key="frame" x="76" y="326" width="240" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-I6-9Zt">
+                                <rect key="frame" x="76" y="348.66666666666669" width="240" height="251.33333333333331"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nol-UX-7kG">
-                                <rect key="frame" x="20" y="180" width="353" height="59.666666666666657"/>
+                                <rect key="frame" x="20" y="209" width="353" height="59.666666666666686"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
                                 <color key="textColor" red="0.99697250127792358" green="0.65570467766921103" blue="0.047679250867326974" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -37,8 +36,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="nol-UX-7kG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="121" id="07Y-Tj-aaD"/>
+                            <constraint firstItem="nol-UX-7kG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="07Y-Tj-aaD"/>
+                            <constraint firstItem="FfJ-I6-9Zt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="4j9-kX-hYu"/>
                             <constraint firstItem="nol-UX-7kG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Byz-Ty-k3r"/>
+                            <constraint firstItem="FfJ-I6-9Zt" firstAttribute="top" secondItem="nol-UX-7kG" secondAttribute="bottom" constant="80" id="EsC-WY-o6c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FfJ-I6-9Zt" secondAttribute="trailing" constant="77" id="aBW-7c-Vng"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nol-UX-7kG" secondAttribute="trailing" constant="20" id="onf-ws-cpq"/>
                         </constraints>
                     </view>
